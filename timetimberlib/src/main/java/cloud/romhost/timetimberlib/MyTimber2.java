@@ -1,9 +1,11 @@
 package cloud.romhost.timetimberlib;
 
-import timber.log.Timber;
+
+import org.slf4j.LoggerFactory;
 
 public class MyTimber2 {
     public void helloWorld(){
-        Timber.d("Hello World");
+        LoggerFactory.getLogger("AliDoran").info("Ali");
+//        Timber.d("Hi");
     }
 }

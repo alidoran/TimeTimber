@@ -1,14 +1,9 @@
 package cloud.romhost.timetimberlib
 
-import timber.log.Timber
-import java.util.Calendar
+import org.slf4j.LoggerFactory
 
 class MyTimber {
     fun showLog(string: String){
-        Timber.d("${Calendar.getInstance().time} $string")
-    }
-
-    fun showLog2(string: String){
-        Timber.d("${Calendar.getInstance().time} $string")
+        LoggerFactory.getLogger("AliDoran").info("Ali")
     }
 }
