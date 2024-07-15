@@ -13,7 +13,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
 rootProject.name = "TimeTimber"
 include(":app")
 include(":timetimberlib")
